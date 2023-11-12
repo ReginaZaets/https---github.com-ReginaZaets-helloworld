@@ -1,0 +1,224 @@
+@media (max-width: 767px) {
+    .center {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .top-basket {
+        background-position: 70%;
+    }
+
+    .top-header {
+        background-position: 30%;
+    }
+
+    .object {
+        padding-top: 32px;
+        border-bottom: none;
+    }
+
+    .header__input {
+        display: none;
+    }
+    
+    .heading {
+        display: none;
+    }
+
+    .header_logo {
+        width: 99px;
+
+    }
+
+    .menu-mobile {
+        display: block;
+        display: flex;
+        align-items: center;
+        gap: 32px;
+    }
+
+    .title {
+        text-align: center;
+        font-size: 48px;
+        line-height: 59px;
+        &-header {
+            font-size: 48px;
+            text-align: center;
+            margin-top: 82px;
+        }
+    }
+
+    .subject {
+        font-size: 16px;
+        line-height: 32px;
+        text-align: center;
+    }
+
+    .top-content {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .catalog {
+        font-size: 14px;
+    }
+
+    .for-heading {
+        font-size: 24px;
+        line-height: normal;
+    }
+
+    .for {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 16px;
+        &-item {
+            grid-column: 1 / -1;
+            height: 375px;
+            font-size: 28px;
+            line-height: 34px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            &-big {
+                height: 244px;
+            }
+        }
+    }
+
+    .headline-box {
+        font-size: 24px;
+        padding-top: 32px;
+    }
+
+    .headline {
+        padding-bottom: 32px;
+        padding-top: 36px;
+        font-size: 24px;
+        &-title {
+            margin-top: 32px;
+            margin-bottom: 16px;
+        }
+    }
+
+    .caption {
+        margin-top: 9px;
+        margin-bottom: 4px;
+        font-size: 18px;
+    }
+
+    .select {
+        margin-top: 16px;
+    }
+
+    .text {
+        font-size: 14px;
+        margin-bottom: 8px;
+    }
+
+    .product {
+        width: 100%;
+    }
+
+    .product-content {
+        gap: 32px;
+    }
+
+    .product_price {
+        font-size: 18px;
+        &-discount {
+            font-size: 18px;
+        }
+    }
+
+    .link-box {
+        margin-top: 36px;
+        margin-bottom: 32px;
+        &-item {
+            margin-top: 18px;
+            margin-bottom: 32px;
+        }
+        &_basket {
+            margin-top: 32px;
+            margin-bottom: 32px;
+        }
+    }
+
+    .footer {
+        padding-bottom: 32px;
+        &__content {
+            row-gap: 47px;
+            column-gap: 0px;
+            justify-content: center;
+        }
+        &__info {
+            gap: 100px;
+        }
+        &__icons {
+            display: none;
+        }
+    }
+
+    .basket {
+        grid-template-columns: repeat(4, 1fr);
+        margin-top: 92px;
+        row-gap: 48px;
+        margin-bottom: 16px;
+        &__content {
+            grid-column: span 4;
+        }
+        &__form {
+            width: 376px;
+            grid-column: 1 / 2;
+        }
+        &__item {
+            padding-top: 18px;
+            padding-bottom: 24px;
+            &__input {
+                padding-left: 20px;
+                text-align: start;
+            }
+        }
+        &-img-item {
+            display: none;
+        }
+        &__name-box {
+            display: none;
+        }
+        &_info {
+            gap: 0px;
+            &__title {
+                font-size: 18px;
+                padding-bottom: 8px;
+            }
+            &__list {
+                font-size: 12px;
+                padding-bottom: 15px;
+            }
+            &__price {
+                font-size: 12px;
+                padding-bottom: 15px;
+            }
+        }
+        &_nav {
+            gap: 14px;
+            padding-top: 8px;
+        }  
+        &__button {
+            font-size: 12px;
+            &_form {
+                font-size: 16px;
+                margin-left: 26px;
+                border-radius: 20px;
+            }
+        }   
+    }
+}
+
+@media (min-width: 320px) and (max-width: 500px) {
+    .basket {
+        &__form {
+            width: 343px;
+            grid-column: 1/-1;
+        }
+    }
+}

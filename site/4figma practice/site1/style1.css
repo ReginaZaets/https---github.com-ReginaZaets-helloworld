@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    text-decoration: none;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.top {
+    height: 735px;
+    background-image: url();
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.header {
+    height: 77px;
+}
+
+.header-input {
+    width: 288px;
+    height: 41px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    border-radius: 20px;
+    background-color: transparent;
+    outline: none;
+    padding-left: 32px;
+    padding-right: 32px;
+    box-sizing: border-box;
+
+}
+
+.header-input::placeholder {
+    color: white;
+}
+
+.title {
+    margin-top: 64px;
+    margin-bottom: 16px;
+    width: 792px;
+}
